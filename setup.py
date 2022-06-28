@@ -39,8 +39,11 @@ setuptools.setup(
 	    'Pygments',
             'osqp',	    
             'lime==0.1.1.37',
-            'shap==0.34.0'
-	], 
+            'shap==0.34.0',
+            'nyoka==5.2.0',
+            'xmltodict==0.12.0',
+            'numba'
+    ],
     package_data={'aix360': ['data/*', 'data/*/*', 'data/*/*/*', 'models/*', 'models/*/*', 'models/*/*/*']},
     include_package_data=True,
     zip_safe=False
