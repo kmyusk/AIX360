@@ -37,4 +37,8 @@ class TestBase(TestCase):
             'float_col': [1.2, 4.5],
             'str_col': [0, 1]
         })
+        print('actual_df:')
+        print(actual_df)
+        print('expected_df:')
+        print(expected_df)
         self.assertTrue(actual_df.equals(expected_df))
